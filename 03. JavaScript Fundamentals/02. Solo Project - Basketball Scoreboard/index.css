@@ -1,5 +1,15 @@
+
 body {
     margin: 0;
+    text-align: center;
+    background-color: #182041;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 10px;
+    color: white;
 }
 
 .container {
@@ -13,4 +23,32 @@ button {
     width: 50px;
     height: 50px;
     border-radius: 5px;
+    font-family: Digital-7,sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #182041;
+
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+.display-counter {
+    color: #f64460;
+    font-size: 70px;
+}
+
+.basketball-Score-Font {
+    font-family: Digital-7, sans-serif;
+
+}
+
+.display-counter-increase {
+    margin-top: 20px;
 }
